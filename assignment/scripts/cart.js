@@ -11,8 +11,15 @@ return true;
 }
 addItem('first item');
 
+addItem('grapes');
+addItem('snacks');
 
-
+function listItems(basketItems) {
+    for(let item of basketItems) {
+        console.log(item);
+    }
+}
+listItems(basket);
 
 
 
