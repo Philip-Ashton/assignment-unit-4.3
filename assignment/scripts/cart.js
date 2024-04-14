@@ -10,9 +10,10 @@ basket.push(item);
 return true;
 }
 addItem('first item');
-
 addItem('grapes');
 addItem('snacks');
+console.log (basket);
+
 
 function listItems(basketItems) {
     for(let item of basketItems) {
@@ -21,6 +22,12 @@ function listItems(basketItems) {
 }
 listItems(basket);
 
+function empty() {
+    basket.length = 0;
+}
+console.log (empty);
+
+const maxItems = 5;
 
 
 
